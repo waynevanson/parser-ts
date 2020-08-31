@@ -3,7 +3,7 @@ import { array } from 'fp-ts/lib/Array'
 import { string as S } from '../src'
 import { error, success } from '../src/ParseResult'
 import { stream } from '../src/Stream'
-import { run } from './helpers'
+import { run } from '../src/helpers'
 
 describe('string', () => {
   it('string', () => {

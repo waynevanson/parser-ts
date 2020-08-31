@@ -2,7 +2,7 @@ import * as assert from 'assert'
 import { char as C } from '../src'
 import { error, success } from '../src/ParseResult'
 import { stream } from '../src/Stream'
-import { run } from './helpers'
+import { run } from '../src/helpers'
 
 describe('char', () => {
   it('char', () => {

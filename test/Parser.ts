@@ -2,7 +2,7 @@ import * as assert from 'assert'
 import { char as C, parser as P, string as S } from '../src'
 import { error, success } from '../src/ParseResult'
 import { stream } from '../src/Stream'
-import { run } from './helpers'
+import { run } from '../src/helpers'
 import { pipe } from 'fp-ts/lib/pipeable'
 
 describe('Parser', () => {

@@ -3,7 +3,7 @@ import { parser as P, string as S } from '../src'
 import { success, error } from '../src/ParseResult'
 import { stream } from '../src/Stream'
 import { pipe } from 'fp-ts/lib/pipeable'
-import { run } from './helpers'
+import { run } from '../src/helpers'
 
 export const pathParser = pipe(
   S.string('/users/'),
